@@ -1,0 +1,628 @@
+.texto-cuerpo{
+    font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 400;
+
+line-height: 63px;
+letter-spacing: 0.09em;
+
+color: #000000;
+}
+
+#contenido-principal{
+    position: relative;
+    display: block;
+    width: 1512px;
+    height: 2966px;
+    background-color: #fff;
+    margin:auto;
+}
+
+#logo{
+   
+    display: inline-block;
+    background-image: url(/images/logo-provicional.png);
+    width: 125px;
+    height: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top:39px;
+    margin-left: 692px;
+
+}
+
+#favorito{
+    position: absolute;
+    display: inline-block;
+    background-image: url(/images/icons8-favorite-32.png);
+    width: 32px;
+    height: 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+    right: 138px;
+    top:42px;
+}
+
+#carro{
+    position:absolute;
+    display: inline-block;
+    background-image: url(/images/icons8-buying-32.png);
+    width: 32px;
+    height: 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+    right: 77px;
+    top:42px;
+}
+
+
+.nav{
+   position: -webkit-sticky;
+   position: sticky;
+   top: 0; 
+   display: flex;
+   width: 100%;
+   background: #FFF;
+   z-index: 3;
+   box-sizing: border-box;
+   
+}
+
+.nav > div{
+    position:relative;
+    display: block;
+    overflow: auto;
+    height: 129px;
+    width: 100%;
+}
+#nav-inferior{
+    position: relative;
+    display: block;
+    height: 19px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+#nav-inferior > a {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+#imagen-encabezado{
+    position: relative;
+    display:block;
+    width: 100%;
+    height: 459px;
+    background-image: url(/images/encabezado-1.png);
+    top:30px;
+    margin-bottom: 67px;
+}
+
+#lentes:hover{
+    background: #000000;
+    color: #FFF; 
+}
+
+#accesorios:hover{
+    background: #000000;
+    color: #FFF;
+}
+
+.texto-cuerpo{
+    display:block;
+    position: relative;
+    font-size: 24px;
+    width: 543px;
+    height: 292px;
+    margin-top: 226px;
+    margin-left: 101px;
+    border: solid;
+    border-color: aqua;
+    border-width: 1px;
+    float: left;
+    box-sizing: border-box;
+    text-align:justify;
+}
+
+.noticia {
+    display: block;
+    position: relative;
+    overflow: auto;
+    text-align: center;
+    border:solid;
+    border-color: #000000;
+    border-width: 1px;
+    margin-top:67px;
+} 
+
+#imagen-noticias-1{
+    display: block;
+    position: relative;
+    float:right;
+    width:50%;
+    height: 743px;
+    background: url(/images/noticia1.png);
+    background-position-x: -120px;
+    background-position-y: -250px;
+    box-sizing: border-box;
+
+}
+#imagen-noticias-2{
+    display: block;
+    position: relative;
+    float:left;
+    width:50%;
+    height: 743px;
+    background: url(/images/noticia2.png);
+    background-position-x: -380px;
+    background-position-y: -350px;
+    box-sizing: border-box;
+}
+
+/*Footer*/
+
+#imagen-footer{
+    background-image: url(/images/background-Prueba.jpg);
+    width: 1512px;
+    height: 436px;
+    margin-top: 61px;
+    margin-bottom: 52px;
+
+}
+
+#logo-blanco{
+    position: relative;
+    display:block;
+    background-image: url(/images/logo-provicional.png);
+    width: 125px;
+    height: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;   
+}
+
+footer > h4{
+    position: relative;
+    display: inline-block;
+    font-size: 35px;
+}
+
+#circulo-texto-correo{
+    position:relative;
+    display: inline-block;
+    border: solid;
+    border-width: 1px;
+    border-color: #000000;
+    border-radius: 25px;
+    width:200px;
+    height:43px;
+    margin-left: 25px;
+
+}
+footer{
+    height: 166px;
+    display: block;
+    position: relative;
+}
+
+footer > span > p{
+    margin-top: 10px;
+    margin-left: 5px;
+    color:#AEAEAE ;
+}
+
+#circulo-texto-mensaje{
+    position:relative;
+    display: inline-block;
+    border: solid;
+    border-width: 1px;
+    border-color: #000000;
+    border-radius: 25px;
+    width:500px;
+    height:43px;
+    margin-left: 15px;
+
+}
+
+#circulo-texto-envio{
+    position:relative;
+    display: inline-block;
+    border: solid;
+    border-width: 1px;
+    border-color: #000000;
+    border-radius: 25px;
+    width: 80px;
+    height:43px;
+    margin-left: 15px;
+    
+
+}
+
+#texto-medio{
+width: 50%;
+margin-left: 20px;
+}
+
+footer > div {
+    display: inline-block;
+    position: relative;
+    top: 25px;
+    margin-left: 200px;
+    
+
+}
+
+#facebook{
+    display: inline-block;
+    position: relative;
+    height: 68px;
+    width: 68px;
+    background-image: url(/images/icons-footer/Untitled-1-01.png);
+    background-repeat:no-repeat;
+    
+    background-position-x: 0px;
+    background-position-y: 0px;
+}
+
+#youtube{
+    display: inline-block;
+    position: relative;
+    height: 68px;
+    width: 68px;
+    background-image: url(/images/icons-footer/Untitled-1-03.png);
+    background-repeat:no-repeat;
+    
+    background-position-x: 0px;
+    background-position-y: 0px;
+}
+
+#instagram{
+    display: inline-block;
+    position: relative;
+    height: 68px;
+    width: 68px;
+    background-image: url(/images/icons-footer/inst.png);
+    background-repeat:no-repeat;
+    
+    background-position-x: 0px;
+    background-position-y: 0px;
+}
+
+#facebook:hover{
+    background-position-y: -68px;
+}
+
+#youtube:hover{
+    background-position-y: -68px;
+}
+
+#instagram:hover{
+    background-position-y: -68px;
+}
+
+/*Lentes*/
+
+#contenido-lentes > h2 {
+	text-align: center;
+	font-size: 36px;
+	
+}
+
+.titulo-pagina{
+	position:relative;
+	display: block;
+	height: 40px;
+	margin: auto;
+	width: 50%;
+	text-align: center;
+}
+
+.producto{
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    height: 300px;
+}
+
+#producto-imagen-1{
+    position: relative;
+    display: block;
+    background-image: url(/images/lentes-imagenes/prueba-background-contain.jpg);
+    background-repeat: no-repeat;
+   
+    width: 100%;
+    height: 300px;
+}
+
+.texto1{
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    float:left;
+}
+
+.texto-secundario{
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+
+.texto2{
+    position: relative;
+    display: inline-block;
+    text-align: right;
+    
+}
+
+.corazon{
+    position: relative;
+    display: inline-block;
+    background-image: url(/images/lentes-imagenes/corazon-icono-lentes-20x20.png);
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 20px;
+    background-position-y: -20px;
+    
+}
+
+#producto-imagen-2{
+    position: relative;
+    display: block;
+    background-image: url(/images/lentes-imagenes/prueba-background-contain.jpg);
+    background-repeat: no-repeat;
+   
+    width: 100%;
+    height: 300px;
+}
+
+#producto-imagen-3{
+    position: relative;
+    display: block;
+    background-image: url(/images/lentes-imagenes/prueba-background-contain.jpg);
+    background-repeat: no-repeat;
+   
+    width: 100%;
+    height: 300px;
+}   
+
+.espacio-blanco-producto{
+    position: relative ;
+    display: inline-block;
+    height: 300px;
+    width: 35px;
+
+}
+
+/* Segunda fila de productos*/
+
+#contenido-lentes-2{
+    position: relative;
+    display: block;
+    margin-top: 90px;
+}
+
+.corazon:hover{
+    background-position-y: 2px;
+}
+
+/* Producto Recursos*/
+
+#contenido-producto{
+    position: relative;
+    display: block;
+    overflow: auto;
+
+}
+
+#contenido-imagen-productos{
+    position: relative;
+    display: block;
+    margin-left: 50px;
+    float: left;
+    box-sizing: border-box;
+
+}
+
+.producto-imagen-principal{
+    position: relative;
+    display: block;
+    height: 679px;
+    width: 679px;
+    background-image: url(/images/background-Prueba.jpg);
+
+}
+
+#imagenes-preview{
+    position: relative;
+    display: block;
+    margin-top: 25px;
+}
+
+.imagen-producto{
+    display: inline-block;
+    position: relative;
+    height: 235px;
+    width: 320px;
+    padding: 10px;
+    background-image: url(/images/background-Prueba.jpg
+    );
+}
+
+.titulo-producto{
+    position: relative;
+    display: block;
+    width: 310px;
+    height: 150px;
+    
+}
+
+.titulo-producto > h2 {
+    font-size: 34px;
+}
+
+.textos-producto{
+    display:block;
+    position: relative;
+    float: right;
+    box-sizing: border-box;
+    width: 50%;
+    padding-left: 60px;
+    
+
+
+}
+
+.textos-producto > p{
+    font-size: 20px;
+}
+
+.texto-venta{
+    display: block;
+    position: relative;
+    width: 390px;
+    height: 200px;
+}
+
+.boton{
+    position: relative;
+    display: block;
+    border-radius: 27px;
+    background-color: #000000;
+    color: #FFF;
+    width: 300px;
+    height: 25px;
+    text-align: center;
+    padding-top: 8px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.productos-sugeridos{
+    display: block;
+    position:relative;
+    margin-top: 70px;
+
+}
+
+.titulo-sugerido{
+    display: block;
+    position: relative;
+    text-align: center;
+    font-size: 32px;
+}
+
+/*Carrito*/
+
+
+#carrito-elementos{
+    position: relative;
+    display: block;
+    width: 66%;
+    overflow: auto;
+    float:left;
+}
+
+#contenido-carro{
+    position: static;
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: auto;
+}
+
+.carrito-block{
+    position: relative;
+    display: block;
+    height: 300px;
+    width: 100%;
+    background-color: aqua;
+}
+
+.carrito-producto{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    float: left;
+    background-image: url(/images/lentes-imagenes/prueba-background-contain.jpg);
+    height: 300px;
+    width: 50%;
+}
+
+.carro-textos{
+    position: relative;
+    display:block;
+    float: right;
+    box-sizing: border-box;
+    height: 300px;
+    width: 380px;
+    margin-top: 40px;
+    
+}
+
+.titulo-producto-carro{
+    position: relative;
+    display: inline-block;
+    float: left;
+    
+}
+
+.precio-producto-carro{
+    position: relative;
+    display: inline-block;
+    float:right;
+}
+
+.parrafo-producto-carro{
+    position: relative;
+    display: block;
+    float:right;
+    
+}
+
+.carro-cantidad{
+    position: relative;
+    display: block;
+    height: 23px;
+    width: 130px;
+}
+
+.espacio-blanco-carro{
+    position: relative ;
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+}
+
+.nav-carro{
+    position: sticky;
+    position: -webkit-sticky;
+    display: block;
+    float:right;
+    z-index: 3;
+    width: 280px;
+    top: 20px;
+    
+}
+
+.nav-carro > h2{
+    display: block;
+    position:sticky;
+    width: 100%;
+    height: 25px;
+    text-align: center;
+}
+
+.precio-total{
+    display: block;
+    position: sticky;
+    width: 100%;
+    height: 14px;
+    text-align: center;
+
+}
+
