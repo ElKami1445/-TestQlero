@@ -606,7 +606,9 @@ footer > div {
     z-index: 3;
     width: 280px;
     top: 20px;
-    
+    margin-top: -1400px;
+    padding-top: 80px;
+    margin-right: 60px;
 }
 
 .nav-carro > h2{
